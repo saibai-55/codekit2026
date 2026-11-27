@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dropdown</title>
+
+    <meta name="description" content="description du site">
+    <!-- Open Graph data -->
+    <meta property="og:site_name" content="Site Name">
+    <meta property="og:title" content="Title Here">
+    <meta property="og:description" content="Description Here">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.example.com/">
+
+    <meta property="og:image" content="http://example.com/assets/images/image.jpg">
+    <!--liens absolu vers l'image-->
+    <!--y'en a juste pas-->
+    <meta property="og:image:width" content="1800">
+    <meta property="og:image:height" content="945">
+
+    <link rel="stylesheet" href="dropdown.css">
+    <!--link css google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,700;1,200;1,300;1,400&family=Nunito+Sans:ital,opsz,wdth,wght,YTLC@0,6..12,75..125,200..1000,440..540;1,6..12,75..125,200..1000,440..540&display=swap" rel="stylesheet">
+    <!--<script src="dropdown.js" defer></script>-->
+</head>
+<body id="top">
+    <!--dropdown
+    ul.menu__liste>li.menu__el*5>a-->
+    <nav class="menu">
+
+        <ul class="menu__liste">
+
+            <li class="menu__el menu__el--relative">
+                <a href="">produits</a>
+                <ul class="menu__dropdown">
+                    <li class="menu__dropdownel"><a href="">menu 1</a></li>
+                    <li class="menu__dropdownel"><a href="">menu 2</a></li>
+                    <li class="menu__dropdownel"><a href="">menu 3</a></li>
+                    <li class="menu__dropdownel"><a href="">menu 4</a></li> 
+                </ul>
+            </li>
+            <li class="menu__el menu__el--relative">
+                <a href="">solutions</a>
+                <ul class="menu__dropdown">
+                    <li class="menu__dropdownel"><a href="">menu 1</a></li>
+                    <li class="menu__dropdownel"><a href="">menu 2</a></li>
+                    <li class="menu__dropdownel"><a href="">menu 3</a></li>
+                    <li class="menu__dropdownel"><a href="">menu 4</a></li> 
+                </ul>
+            </li>
+
+            <li class="menu__el menu__el--relative">
+                <a href="">développeurs</a>
+                <ul class="menu__dropdown">
+                    <li class="menu__dropdownel"><a href="">menu 1</a></li>
+                    <li class="menu__dropdownel"><a href="">menu 2</a></li>
+                    <li class="menu__dropdownel"><a href="">menu 3</a></li>
+                    <li class="menu__dropdownel"><a href="">menu 4</a></li> 
+                </ul>
+            </li>
+
+            <li class="menu__el menu__el--relative">
+                <a href="">ressources</a>
+                <ul class="menu__dropdown">
+                    <li class="menu__dropdownel"><a href="">menu 1</a></li>
+                    <li class="menu__dropdownel"><a href="">menu 2</a></li>
+                    <li class="menu__dropdownel"><a href="">menu 3</a></li>
+                    <li class="menu__dropdownel"><a href="">menu 4</a></li> 
+                </ul>
+            </li>
+
+            <li class="menu__el">
+                <a href="">tarifs</a>
+                <div class="menu__megaDropDown">
+                    <div>
+                        <span>paiement</span>
+                        <ul>
+                            <li><a href="#">paiement en ligne</a></li>
+                            <li><a href="#">terminal</a></li>
+                            <li><a href="#">checkout</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <span>revenus</span>
+                        <ul>
+                            <li><a href="#">billing</a></li>
+                            <li><a href="#">metronome</a></li>
+                            <li><a href="#">checkout</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <span>gestion</span>
+                        <ul>
+                            <li><a href="#">paiement en ligne</a></li>
+                            <li><a href="#">terminal</a></li>
+                            <li><a href="#">checkout</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <span>paiement</span>
+                        <ul>
+                            <li><a href="#">paiement en ligne</a></li>
+                            <li><a href="#">terminal</a></li>
+                            <li><a href="#">checkout</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <span>paiement</span>
+                        <ul>
+                            <li><a href="#">paiement en ligne</a></li>
+                            <li><a href="#">terminal</a></li>
+                            <li><a href="#">checkout</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </li>
+            
+            <!--megadropdown-->
+            
+        
+        </ul>
+    </nav>
+
+</body>
+</html>

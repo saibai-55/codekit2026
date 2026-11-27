@@ -1,0 +1,21 @@
+body{
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #2A2A2A;
+    margin: 0;
+}
+.slider ul{
+    list-style: none;
+    padding: 0;
+}
+.slider__btn button{
+    cursor: pointer;
+}
+
+.slider__el{
+    display: none;
+}
+.slider__el--show{
+    display: block;
+}

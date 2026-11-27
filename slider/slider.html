@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slider</title>
+
+    <meta name="description" content="description du site">
+    <!-- Open Graph data -->
+    <meta property="og:site_name" content="Site Name">
+    <meta property="og:title" content="Title Here">
+    <meta property="og:description" content="Description Here">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.example.com/">
+
+    <meta property="og:image" content="http://example.com/assets/images/image.jpg">
+    <!--liens absolu vers l'image-->
+    <!--y'en a juste pas-->
+    <meta property="og:image:width" content="1800">
+    <meta property="og:image:height" content="945">
+
+    <link rel="stylesheet" href="slider.css">
+    <!--link css google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,700;1,200;1,300;1,400&family=Nunito+Sans:ital,opsz,wdth,wght,YTLC@0,6..12,75..125,200..1000,440..540;1,6..12,75..125,200..1000,440..540&display=swap" rel="stylesheet">
+    <script src="slider.js" defer></script>
+</head>
+<body>
+    <!--slider-->
+    <div class="slider">
+    
+        <!--ul.slider__control>li.slider__btn*2>button-->
+        <ul class="slider__control">
+            <li class="slider__btn slider__btn--prev"><button>Prev</button></li>
+            <li class="slider__btn slider__btn--next"><button>Next</button></li>
+        </ul>
+        <!--ul.slider__list>li.slider__el*4-->
+        <ul class="slider__list">
+            <li class="slider__el slider__el--show">
+                un
+            </li>
+            <li class="slider__el">
+                deux
+            </li>
+            <li class="slider__el">
+                trois
+            </li>
+            <li class="slider__el">
+                quatre
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+body{
+    color: #2A2A2A;
+    font-weight: 700;
+    margin: 0;
+}
+.menu{
+    display: none;
+}
+.menu--open{
+    display:block;
+}
+
+/*custom*/
+.btn--menu{
+    /*position: relative;*/
+    /*pour relative on peut changer avec left, top, right, bottom, pas de modif de flux, c'est pour les décalge*/
+    /*left:100px;*/
+    /*position: absolute;*/
+    /*hors flux, top right bottom et left pour position, postiont lié au viewport, ou au premier parents qui est positionné*/
+    position: fixed;
+    /*hors flux, même positions qu'en haut, lié au viewport mais immobile au scroll*/
+    /*superposition*/
+    z-index: 10;
+}
